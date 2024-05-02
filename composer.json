@@ -1,0 +1,18 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "src/Config/",
+            "Repositories\\": "src/Repositories/",
+            "Views\\": "src/Views/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "oxid-esales/oxideshop-unified-namespace-generator": true,
+            "oxid-esales/oxideshop-composer-plugin": true
+        }
+    }
+}
